@@ -1,0 +1,102 @@
+Objetos e Classes
+Conceitos básicos da Orientação a Objetos
+
+ 
+
+O paradigma OO organiza o programa em termos de objetos. Dessa forma, podemos criar programas pensando em termos de objetos ao invés de algoritmos. A OO trabalha em programas basicamente criando objetos equivalentes ao mundo real, e fazendo com que esses objetos se comuniquem.
+
+ 
+
+O que são classes?
+
+ 
+
+Classe é um modelo ou um conjunto de instruções para construir um tipo específico de objeto. É um conceito básico de Programação Orientada a Objetos que gira em torno de entidades da vida real. A classe em Java determina como um objeto se comportará e o que o objeto conterá.
+Sintaxe:
+
+class <nome da classe> { 
+
+    atributos; 
+
+    método; 
+
+  } 
+
+ 
+
+O que são objetos?
+
+ 
+
+Objeto é uma instância de uma classe. Um objeto nada mais é do que um componente independente que consiste em métodos e propriedades para tornar um tipo específico de dados útil. Por exemplo, nome da cor, mesa, bolsa, latido. Ao enviar uma mensagem a um objeto, você está solicitando que o objeto invoque ou execute um de seus métodos, conforme definido na classe.
+
+Do ponto de vista da programação, um objeto pode incluir uma estrutura de dados, uma variável ou uma função. Ele tem um local de memória alocado. O objeto é projetado como hierarquias de classes. Sintaxe:
+
+NomeDaClasse.variavelRepresentaObjeto = new NomeDaClasse();
+
+ 
+
+Como os objetos se comunicam?
+
+ 
+
+Por meio das mensagens os objetos se comunicam e as mensagens são compostas por 3 elementos:
+
+Objeto a quem a mensagem é endereçada (receptor)
+Nome do método a executar
+Lista de parâmetros necessários ao método (se existirem)
+Exemplo: caso um objeto da classe Dono envie uma mensagem para um objeto do tipo Cachorro falando “sentar”, o cachorro irá interpretar esta mensagem e consequentemente irá executar todas as instruções que foram especificadas na classe Cachorro dentro do método sentar.
+
+ 
+
+Então… resumindo e exemplificando os conceitos
+
+ 
+
+Objeto
+
+ 
+
+Um objeto é a representação computacional de um elemento ou processo do mundo real. Cada objeto possui suas características e seu comportamento.
+
+
+​Analisando os objetos, podemos dizer que eles fazem alguma ação:​
+
+
+Perceba que os objetos são compostos por estado, identidade e comportamento:
+
+ 
+
+Classes
+
+ 
+
+Uma classe é um modelo que define quais serão os campos e métodos de dados de um objeto. Ou seja, para criar um objeto utilizamos uma classe. Veja o exemplo:
+
+Estado: Reflete os valores correntes dos atributos do objeto em determinado momento (Também chamado de propriedades)
+Comportamento (Função, operação): São as funções que podem ser executadas por um determinado objeto, correspondem aos métodos e o que você pode fazer com esse objeto
+Identidade: Um objeto é único, mesmo que o seu estado seja idêntico ao de outro
+ 
+
+
+Atividade extra
+
+ 
+
+Ler o texto: “ A importância da Programação Orientada a Objetos”
+
+MARCEL, Alan. A importância da Programação Orientada a Objetos – Parte I. Tá Safo, 2015.
+
+ 
+
+Referências Bibliográficas
+
+ 
+
+BOOCH, Grady. Uml - Guia do Usuário. Rio de Janeiro: Editora Campus, 2018.
+
+GUEDES, Gilleanes T. A. UML 2 - Uma Abordagem Prática. São Paulo: NovaTec, 2018.
+
+PRESSMAN, Roger; MAXIM, Bruce. Engenharia de Software. Porto Alegre: Bookman, 2010.
+
+SOMMERVILLE, Ian. Engenharia de software. São Paulo: Pearson, 2015.
