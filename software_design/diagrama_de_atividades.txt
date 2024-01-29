@@ -1,0 +1,84 @@
+Diagrama de Atividades
+Odiagrama de atividades é voltado para ser aplicado como uma representação gráfica de fluxo. Sua função é demonstrada para destacar a modelagem computacional de aspectos dinâmicos do sistema.
+
+O diagrama é indicado para apresentar os fluxos dinâmicos de processamento do futuro software e sistema. Sua apresentação é feita por estudo de modelagem dinâmica, sendo demonstrado por um fluxograma de atividades do sistema.
+
+Um diagrama de atividades é feito quando:
+
+Evidenciar a lógica de um algoritmo;
+Apresentar as etapas realizadas em um caso de uso UML;
+Desenhar um processo de negócio ou fluxo de trabalho entre usuários e o sistema;
+Diminuir e melhorar qualquer processo ao esclarecer casos de uso complicados.
+
+
+NOTAÇÃO
+
+INÍCIO
+
+Representa o início do diagrama;
+
+
+ATIVIDADE
+
+É alguma tarefa que precisa ser realizada.  Uma atividade é um método sobre uma classe.
+
+
+DECISÕES
+
+Um diagrama de atividade expressa uma decisão quando são usadas condições de guarda para indicar possíveis transições diferentes do objeto considerado.
+
+Representa um comportamento condicional que a partir de uma única entrada poderá gerar algumas saídas.
+
+
+BIFURCAÇÃO E JUNÇÃO
+
+A representação de BIFURCAÇÃO utilizada para apresentar atividades que são realizadas em paralelo.
+
+A representação de JUNÇÃO é utilizada junto a BIFURCAÇÃO para indicar que a atividade seguinte é efetuada somente quando todas as atividades da bifurcação tenham completado suas atividades.
+
+
+RAIA
+
+Agrupam atividades relacionadas às responsabilidades que cumprem as atividades, sendo empregadas para propósitos como mostrar em qual parte da organização um trabalho é executado ou mostrar explicitamente onde são executadas ações (em qual objeto). São desenhadas como retângulos verticais onde são colocadas as atividades pertinentes em cada faixa.
+
+
+FIM
+
+Representa o fim do diagrama.
+
+
+EXEMPLO
+
+
+
+
+Prática de Diagrama de Atividades
+
+Na prática os diagramas de atividades precisam seguir as seguintes fases:
+
+Determine os componentes principais do processo;
+Ordene as atividades;
+Escolha os símbolos corretos para cada atividade;
+Faça a conexão entre as atividades;
+Indique início e fim do processo do diagrama;
+Revise seu diagrama.
+
+
+ 
+
+Atividade Extra
+
+Para saber mais sobre o Diagrama de Atividades, leia o artigo “Entendendo o Diagrama de Atividades da UML” do site Até o Momento.
+
+
+ 
+
+ 
+
+Referência Bibliográfica
+
+GALLOTTI, G. M. A. (Org.). Arquitetura de software. Pearson, 2017.
+
+SOMMERVILLE, I. Engenharia de software. 10.ed. Pearson, 2019.
+
+PFLEEGER, S. L. Engenharia de software: teoria e prática. 2.ed. Pearson, 2003.
